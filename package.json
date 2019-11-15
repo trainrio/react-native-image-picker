@@ -1,12 +1,15 @@
 {
-  "name": "react-native-image-picker",
+  "name": "@trainrio/react-native-image-picker",
   "description": "A React Native module that allows you to use native UI to select media from the device library or directly from the camera",
-  "version": "0.28.1",
+  "version": "0.28.2",
   "main": "index.js",
-  "homepage": "https://github.com/react-community/react-native-image-picker",
+  "homepage": "https://github.com/trainrio/react-native-image-picker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-community/react-native-image-picker.git"
+    "url": "https://github.com/trainrio/react-native-image-picker.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   },
   "nativePackage": true,
   "author": "Marc Shilling (marcshilling)",
